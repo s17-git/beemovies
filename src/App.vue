@@ -1,11 +1,10 @@
 <script setup>
+import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
     <header>
-        <h1 class="text-3xl text-indigo-900 font-bold underline">
-            App Header
-        </h1>
+        <Navbar />
     </header>
     <main>
         <routerView />
