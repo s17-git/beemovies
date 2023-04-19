@@ -3,7 +3,9 @@
 
 <template>
     <header>
-        <h1>App header</h1>
+        <h1 class="text-3xl text-indigo-900 font-bold underline">
+            App Header
+        </h1>
     </header>
     <main>
         <routerView />
